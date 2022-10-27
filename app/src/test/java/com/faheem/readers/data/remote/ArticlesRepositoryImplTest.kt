@@ -2,6 +2,7 @@ package com.faheem.readers.data.remote
 
 import com.faheem.readers.data.dtos.ArticlesDto
 import com.faheem.readers.data.dtos.Result
+import com.faheem.readers.data.remote.base.NetworkResult
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.every
@@ -59,7 +60,7 @@ class ArticlesRepositoryImplTest {
     @Test
     fun `test fetch most viewed articles from service is failed with error code 429`() = runTest {
         // Given
-        val errorMessage = "Too many requests. You reached your per minute or per day rate limit"
+        val errorMessage = "Too many requests. You reached your per minute or per day rate limit."
         coEvery { mockArticlesService.fetchMostViewedArticles(timePeriod) } returns
                 Response.error(429, errorMessage.toResponseBody("application/json".toMediaTypeOrNull()))
 
@@ -70,7 +71,7 @@ class ArticlesRepositoryImplTest {
 
         // Then
         Assert.assertEquals(
-            "Too many requests. You reached your per minute or per day rate limit",
+            "Too many requests. You reached your per minute or per day rate limit.",
             actualResult.error.message
         )
 

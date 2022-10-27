@@ -1,14 +1,12 @@
 package com.faheem.readers.data.remote
 
 import com.faheem.readers.data.dtos.ArticlesDto
+import com.faheem.readers.data.remote.base.BaseRepository
+import com.faheem.readers.data.remote.base.NetworkResult
 
-class ArticlesRepositoryImpl(private val service: ArticlesService) : ArticlesRepository {
-    override suspend fun getMostViewedArticles(timePeriod: Int): NetworkResult<ArticlesDto> {
-        val response = service.fetchMostViewedArticles(period = timePeriod)
-        if (response.isSuccessful) {
-            return NetworkResult.Success(response.body()!!)
-        }
+class ArticlesRepositoryImpl(private val service: ArticlesService) : ArticlesRepository,
+    BaseRepository() {
+    override suspend fun getMostViewedArticles(timePeriod: Int): NetworkResult<ArticlesDto> =
+        executeApi { service.fetchMostViewedArticles(period = timePeriod) }
 
-        return NetworkResult.Error(Exception(response.errorBody()?.string()))
-    }
 }
