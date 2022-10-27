@@ -1,0 +1,1132 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2022 The New York Times Company.  All Rights Reserved.",
+  "num_results": 20,
+  "results": [
+    {
+      "uri": "nyt://article/759e65cf-9ff5-5763-a255-9c52033fa4dd",
+      "url": "https://www.nytimes.com/2022/10/25/business/adidas-kanye-west.html",
+      "id": 100000008598499,
+      "asset_id": 100000008598499,
+      "source": "New York Times",
+      "published_date": "2022-10-25",
+      "updated": "2022-10-26 11:25:41",
+      "section": "Business",
+      "subsection": "",
+      "nytdsection": "business",
+      "adx_keywords": "Fashion and Apparel;Rap and Hip-Hop;Anti-Semitism;Advertising and Marketing;West, Kanye;adidas AG",
+      "column": null,
+      "byline": "By Melissa Eddy, Vanessa Friedman and Michael J. de la Merced",
+      "type": "Article",
+      "title": "Adidas Ends Partnership With Kanye West at a Considerable Cost",
+      "abstract": "The German sportswear giant is the latest company to cut ties with Mr. West, now known as Ye, after his antisemitic remarks. Ending the partnership is expected to hurt company profits.",
+      "des_facet": [
+        "Fashion and Apparel",
+        "Rap and Hip-Hop",
+        "Anti-Semitism",
+        "Advertising and Marketing"
+      ],
+      "org_facet": [
+        "adidas AG"
+      ],
+      "per_facet": [
+        "West, Kanye"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Kanye West, now known as Ye, in Hollywood in 2016 at an event promoting his partnership with Adidas.",
+          "copyright": "Jonathan Leibson/Getty Images North America",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/25/multimedia/25adidas-kanye-1-db1a/25adidas-kanye-1-db1a-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/25/multimedia/25adidas-kanye-1-db1a/25adidas-kanye-1-db1a-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/25/multimedia/25adidas-kanye-1-db1a/25adidas-kanye-1-db1a-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/2513793e-feef-5cce-8483-d58ed825fa33",
+      "url": "https://www.nytimes.com/2022/10/24/arts/television/leslie-jordan-dead.html",
+      "id": 100000008597522,
+      "asset_id": 100000008597522,
+      "source": "New York Times",
+      "published_date": "2022-10-24",
+      "updated": "2022-10-26 18:02:20",
+      "section": "Arts",
+      "subsection": "Television",
+      "nytdsection": "arts",
+      "adx_keywords": "Deaths (Obituaries);Actors and Actresses;Comedy and Humor;Television;Social Media;Homosexuality and Bisexuality;Jordan, Leslie",
+      "column": null,
+      "byline": "By Neil Genzlinger",
+      "type": "Article",
+      "title": "Leslie Jordan, Comic Actor and Instagram Star, Dies at 67",
+      "abstract": "Shows like “Will & Grace” made him a familiar face, then the pandemic brought new fame. He was killed in a car crash in Hollywood.",
+      "des_facet": [
+        "Deaths (Obituaries)",
+        "Actors and Actresses",
+        "Comedy and Humor",
+        "Television",
+        "Social Media",
+        "Homosexuality and Bisexuality"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Jordan, Leslie"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Leslie Jordan, center, in a scene from the hit sitcom “Will & Grace.” He won an Emmy as the tart-tongued socialite Beverley Leslie.",
+          "copyright": "Chris Haston/NBC Universal via Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/25/obituaries/24jordan-02/24jordan-02-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/25/obituaries/24jordan-02/24jordan-02-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/25/obituaries/24jordan-02/24jordan-02-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/3e64d363-584e-50f1-9f56-e6842ac99a77",
+      "url": "https://www.nytimes.com/2022/10/23/world/europe/ukraine-russia-drones-iran.html",
+      "id": 100000008593681,
+      "asset_id": 100000008593681,
+      "source": "New York Times",
+      "published_date": "2022-10-23",
+      "updated": "2022-10-25 10:45:45",
+      "section": "World",
+      "subsection": "Europe",
+      "nytdsection": "world",
+      "adx_keywords": "Drones (Pilotless Planes);Russian Invasion of Ukraine (2022);Russia;Ukraine;Israel;Iran",
+      "column": null,
+      "byline": "By Andrew E. Kramer",
+      "type": "Article",
+      "title": "‘We Heard It, We Saw It, Then We Opened Fire’",
+      "abstract": "With an intense, hastily assembled effort, the Ukrainian military is pioneering successful techniques in the difficult art of anti-drone warfare.",
+      "des_facet": [
+        "Drones (Pilotless Planes)",
+        "Russian Invasion of Ukraine (2022)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Russia",
+        "Ukraine",
+        "Israel",
+        "Iran"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Police officers in Kyiv, Ukraine, trying to shoot down a drone during an attack on Oct. 17. The drone was believed to be an Iranian-made Shahed-136, purchased by Russia in August.",
+          "copyright": "Vadim Sarakhan/Reuters",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/23/world/23ukraine-drones-photo1/23ukraine-drones-photo1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/23/world/23ukraine-drones-photo1/merlin_215040627_aecc0791-0cab-40eb-a123-812a47a1783d-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/23/world/23ukraine-drones-photo1/merlin_215040627_aecc0791-0cab-40eb-a123-812a47a1783d-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/f76e2a3d-3710-5541-9241-68a42f0f9eea",
+      "url": "https://www.nytimes.com/2022/10/19/travel/luxury-bus.html",
+      "id": 100000008544126,
+      "asset_id": 100000008544126,
+      "source": "New York Times",
+      "published_date": "2022-10-19",
+      "updated": "2022-10-23 13:31:34",
+      "section": "Travel",
+      "subsection": "",
+      "nytdsection": "travel",
+      "adx_keywords": "Buses;Luxury Goods and Services;Napaway Holdings LLC;Nashville (Tenn);United States",
+      "column": null,
+      "byline": "By Maria Cramer",
+      "type": "Article",
+      "title": "Goodbye Planes, Trains and Automobiles. Hello, Luxury Bus?",
+      "abstract": "Start-up travel companies are hoping more Americans will embrace the concept of sleeper and luxury coaches. Just don’t call them buses.",
+      "des_facet": [
+        "Buses",
+        "Luxury Goods and Services"
+      ],
+      "org_facet": [
+        "Napaway Holdings LLC"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "Nashville (Tenn)",
+        "United States"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Passengers on the Napaway coach get comfortable as the bus leaves Washington, D.C., on Oct. 14 for an overnight trip to Nashville. ",
+          "copyright": "Kenny Holston for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/19/travel/19travel-sleeper-bus-overall/merlin_215031468_57d701a5-6332-448a-aee4-a55d388af6f3-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/19/travel/19travel-sleeper-bus-overall/merlin_215031468_57d701a5-6332-448a-aee4-a55d388af6f3-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/19/travel/19travel-sleeper-bus-overall/merlin_215031468_57d701a5-6332-448a-aee4-a55d388af6f3-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/79c6b535-66d7-563f-b13c-2330b17523b3",
+      "url": "https://www.nytimes.com/2022/10/24/us/st-louis-high-school-shooting.html",
+      "id": 100000008596882,
+      "asset_id": 100000008596882,
+      "source": "New York Times",
+      "published_date": "2022-10-24",
+      "updated": "2022-10-24 23:35:36",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "St Louis, Mo, Shooting (2022);St Louis (Mo)",
+      "column": null,
+      "byline": "By Jenna Fisher, Remy Tumin, Johnny Diaz and Julie Bosman",
+      "type": "Article",
+      "title": "Teen and Woman Killed in Shooting at St. Louis High School",
+      "abstract": "The gunman, who was identified as a former student, also died after a shootout with the police at Central Visual and Performing Arts High School, the authorities said. At least seven other people were injured.",
+      "des_facet": [
+        "St Louis, Mo, Shooting (2022)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "St Louis (Mo)"
+      ],
+      "media": [],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/3f4fad0f-5ce2-56c0-ae9a-10f770e9b151",
+      "url": "https://www.nytimes.com/2022/10/19/world/europe/liz-truss-lettuce-stream.html",
+      "id": 100000008588842,
+      "asset_id": 100000008588842,
+      "source": "New York Times",
+      "published_date": "2022-10-19",
+      "updated": "2022-10-21 05:59:38",
+      "section": "World",
+      "subsection": "Europe",
+      "nytdsection": "world",
+      "adx_keywords": "Lettuce;Politics and Government;Newspapers;Social Media;Truss, Elizabeth (1975- );Conservative Party (Great Britain);Daily Star (British Newspaper);Economist, The;Great Britain",
+      "column": null,
+      "byline": "By Daniel Victor",
+      "type": "Article",
+      "title": "The Lettuce Outlasts Liz Truss",
+      "abstract": "Inspired by a columnist’s turn of phrase, a British newspaper tracked whether the embattled prime minister could survive longer than off-the-shelf produce.",
+      "des_facet": [
+        "Lettuce",
+        "Politics and Government",
+        "Newspapers",
+        "Social Media"
+      ],
+      "org_facet": [
+        "Conservative Party (Great Britain)",
+        "Daily Star (British Newspaper)",
+        "Economist, The"
+      ],
+      "per_facet": [
+        "Truss, Elizabeth (1975- )"
+      ],
+      "geo_facet": [
+        "Great Britain"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A days-old head of lettuce has become a caricature of Prime Minister Liz Truss’s tenuous grip on power in Britain.",
+          "copyright": "The Daily Star",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/19/lens/19xp-lettucevideo-promo/19xp-lettucevideo-promo-thumbStandard-v4.png",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/19/lens/19xp-lettucevideo-promo/19xp-lettucevideo-promo-mediumThreeByTwo210-v4.png",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/19/lens/19xp-lettucevideo-promo/19xp-lettucevideo-promo-mediumThreeByTwo440-v4.png",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/8d3a2397-d2b4-5a23-a957-309cbcf9098c",
+      "url": "https://www.nytimes.com/2022/10/23/arts/television/matthew-perry-friends-lovers-and-the-big-terrible-thing.html",
+      "id": 100000008564109,
+      "asset_id": 100000008564109,
+      "source": "New York Times",
+      "published_date": "2022-10-23",
+      "updated": "2022-10-24 16:28:28",
+      "section": "Arts",
+      "subsection": "Television",
+      "nytdsection": "arts",
+      "adx_keywords": "Books and Literature;Writing and Writers;Alcohol Abuse;Actors and Actresses;Drug Abuse and Traffic;Celebrities;Content Type: Personal Profile;Perry, Matthew",
+      "column": null,
+      "byline": "By Elisabeth Egan",
+      "type": "Article",
+      "title": "The One Where Matthew Perry Writes an Addiction Memoir",
+      "abstract": "In “Friends, Lovers and the Big Terrible Thing,” the actor gets serious about sobriety, mortality, colostomy bags and pickleball.",
+      "des_facet": [
+        "Books and Literature",
+        "Writing and Writers",
+        "Alcohol Abuse",
+        "Actors and Actresses",
+        "Drug Abuse and Traffic",
+        "Celebrities",
+        "Content Type: Personal Profile"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Perry, Matthew"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "By the time he was 49, Matthew Perry writes in his new book, he had spent more than half of his life in treatment centers or sober living facilities.",
+          "copyright": "Michelle Groskopf for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/07/books/00MATTHEWPERRY1/00MATTHEWPERRY1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/07/books/00MATTHEWPERRY1/00MATTHEWPERRY1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/07/books/00MATTHEWPERRY1/00MATTHEWPERRY1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/ffb2bda9-fff4-57bb-b35c-9b0be5534932",
+      "url": "https://www.nytimes.com/2022/10/21/business/appeals-court-student-debt-relief-biden.html",
+      "id": 100000008594863,
+      "asset_id": 100000008594863,
+      "source": "New York Times",
+      "published_date": "2022-10-21",
+      "updated": "2022-10-22 13:34:39",
+      "section": "Business",
+      "subsection": "",
+      "nytdsection": "business",
+      "adx_keywords": "Student Loans;United States Politics and Government;Decisions and Verdicts;Appeals Courts (US);Biden, Joseph R Jr",
+      "column": null,
+      "byline": "By Stacy Cowley and Alan Rappeport",
+      "type": "Article",
+      "title": "Appeals Court Temporarily Halts Biden’s Student Debt Cancellation",
+      "abstract": "A federal appeals court on Friday temporarily halted President Biden’s student debt relief plan, preventing the government from moving forward with the debt cancellation it had said could start as early as next week.",
+      "des_facet": [
+        "Student Loans",
+        "United States Politics and Government",
+        "Decisions and Verdicts",
+        "Appeals Courts (US)"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Biden, Joseph R Jr"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Joe Biden speaking about student loan forgiveness at Delaware State University on Friday in Dover.",
+          "copyright": "Al Drago for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/21/multimedia/21studentdebt-1-9418/21studentdebt-1-9418-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/21/multimedia/21studentdebt-1-9418/21studentdebt-1-9418-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/21/multimedia/21studentdebt-1-9418/21studentdebt-1-9418-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/7deaec10-2b8c-5d1b-b25e-009580f4e4da",
+      "url": "https://www.nytimes.com/2022/10/19/nyregion/mafia-anthony-zottola-convicted.html",
+      "id": 100000008564272,
+      "asset_id": 100000008564272,
+      "source": "New York Times",
+      "published_date": "2022-10-19",
+      "updated": "2022-10-24 10:57:24",
+      "section": "New York",
+      "subsection": "",
+      "nytdsection": "new york",
+      "adx_keywords": "Murders, Attempted Murders and Homicides;Organized Crime;Zottola, Anthony;Zottola, Salvatore;Zottola, Sylvester;Shelton, Bushawn;Cosa Nostra;Bronx (NYC)",
+      "column": null,
+      "byline": "By Colin Moynihan",
+      "type": "Article",
+      "title": "A Mobster Dodged Hit After Hit. His Son Finally Got Him.",
+      "abstract": "Anthony Zottola was convicted of murder-for-hire Wednesday. Prosecutors say he wanted the real estate business of his father, Sylvester, a reputed Bonanno crime family associate.",
+      "des_facet": [
+        "Murders, Attempted Murders and Homicides",
+        "Organized Crime"
+      ],
+      "org_facet": [
+        "Cosa Nostra"
+      ],
+      "per_facet": [
+        "Zottola, Anthony",
+        "Zottola, Salvatore",
+        "Zottola, Sylvester",
+        "Shelton, Bushawn"
+      ],
+      "geo_facet": [
+        "Bronx (NYC)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Police investigate the McDonald’s drive-through where Sylvester Zottola died in 2018.",
+          "copyright": "Gregg Vigliotti for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/05/nyregion/00HFOmob-verdict/00HFOmob-verdict-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/05/nyregion/00HFOmob-verdict/00HFOmob-verdict-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/05/nyregion/00HFOmob-verdict/00HFOmob-verdict-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/f05add67-3563-5735-9be3-5e61fcd330cc",
+      "url": "https://www.nytimes.com/2022/10/17/health/clitoris-sex-doctors-surgery.html",
+      "id": 100000008490129,
+      "asset_id": 100000008490129,
+      "source": "New York Times",
+      "published_date": "2022-10-17",
+      "updated": "2022-10-26 14:13:12",
+      "section": "Health",
+      "subsection": "",
+      "nytdsection": "health",
+      "adx_keywords": "your-feed-health;internal-sub-only;your-feed-science;Vagina;Sex;Senses and Sensation;Women and Girls;Surgery and Surgeons;Plastic Surgery;Gynecology and Gynecologists;audio-neutral-informative",
+      "column": null,
+      "byline": "By Rachel E. Gross",
+      "type": "Article",
+      "title": "Half the World Has a Clitoris. Why Don’t Doctors Study It?",
+      "abstract": "The organ is “completely ignored by pretty much everyone,” medical experts say, and that omission can be devastating to women’s sexual health.",
+      "des_facet": [
+        "your-feed-health",
+        "internal-sub-only",
+        "your-feed-science",
+        "Vagina",
+        "Sex",
+        "Senses and Sensation",
+        "Women and Girls",
+        "Surgery and Surgeons",
+        "Plastic Surgery",
+        "Gynecology and Gynecologists",
+        "audio-neutral-informative"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Ina Jang",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/18/science/00vulva-1/00vulva-1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/18/science/00vulva-1/00vulva-1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/18/science/00vulva-1/00vulva-1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/6cb03487-5b09-5b94-b1f7-e6fe98d7a192",
+      "url": "https://www.nytimes.com/2022/10/21/crosswords/spelling-bee-forum.html",
+      "id": 100000008582757,
+      "asset_id": 100000008582757,
+      "source": "New York Times",
+      "published_date": "2022-10-21",
+      "updated": "2022-10-21 03:00:03",
+      "section": "Gameplay",
+      "subsection": "",
+      "nytdsection": "gameplay",
+      "adx_keywords": "",
+      "column": null,
+      "byline": "By New York Times Games",
+      "type": "Article",
+      "title": "Spelling Bee Forum",
+      "abstract": "Feeling stuck on today’s puzzle? We can help.",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Courtesy of Christine M. Chin",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/21/crosswords/21bee-forum-fri/21bee-forum-fri-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/21/crosswords/21bee-forum-fri/21bee-forum-fri-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/21/crosswords/21bee-forum-fri/21bee-forum-fri-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/198d6a0e-e03c-57b5-bd63-b47366ce656a",
+      "url": "https://www.nytimes.com/2022/10/24/us/politics/takeaways-desantis-crist-debate-florida.html",
+      "id": 100000008598070,
+      "asset_id": 100000008598070,
+      "source": "New York Times",
+      "published_date": "2022-10-24",
+      "updated": "2022-10-25 12:40:47",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Midterm Elections (2022);United States Politics and Government;Elections, Governors;Governors (US);Debates (Political);DeSantis, Ron;Crist, Charlie;Democratic Party;Republican Party;Florida",
+      "column": null,
+      "byline": "By Patricia Mazzei and Maggie Astor",
+      "type": "Article",
+      "title": "Four Takeaways From the DeSantis-Crist Debate in Florida’s Governor Race",
+      "abstract": "Charlie Crist was eager to focus on abortion rights, while Gov. Ron DeSantis often turned his attention to President Biden.",
+      "des_facet": [
+        "Midterm Elections (2022)",
+        "United States Politics and Government",
+        "Elections, Governors",
+        "Governors (US)",
+        "Debates (Political)"
+      ],
+      "org_facet": [
+        "Democratic Party",
+        "Republican Party"
+      ],
+      "per_facet": [
+        "DeSantis, Ron",
+        "Crist, Charlie"
+      ],
+      "geo_facet": [
+        "Florida"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gov. Ron DeSantis and Charlie Crist debated on Monday night in Fort Pierce, Fla., an event that was postponed earlier in the month after Hurricane Ian struck the state.",
+          "copyright": "Pool photo by Crystal Vander Weit",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/24/multimedia/24florida-debate-setup-1-62a2/24florida-debate-setup-1-62a2-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/24/multimedia/24florida-debate-setup-1-62a2/24florida-debate-setup-1-62a2-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/24/multimedia/24florida-debate-setup-1-62a2/24florida-debate-setup-1-62a2-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/3acd5bdb-a6b2-5311-8cfa-0cb09b37757f",
+      "url": "https://www.nytimes.com/2022/10/20/crosswords/spelling-bee-forum.html",
+      "id": 100000008582735,
+      "asset_id": 100000008582735,
+      "source": "New York Times",
+      "published_date": "2022-10-20",
+      "updated": "2022-10-20 03:00:03",
+      "section": "Gameplay",
+      "subsection": "",
+      "nytdsection": "gameplay",
+      "adx_keywords": "",
+      "column": null,
+      "byline": "By New York Times Games",
+      "type": "Article",
+      "title": "Spelling Bee Forum",
+      "abstract": "Feeling stuck on today’s puzzle? We can help.",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Courtesy of Megan Luton",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/20/crosswords/20bee-forum-thu/20bee-forum-thu-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/20/crosswords/20bee-forum-thu/20bee-forum-thu-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/20/crosswords/20bee-forum-thu/20bee-forum-thu-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/19df82e8-6b10-54eb-98b5-cd92eb6bac9d",
+      "url": "https://www.nytimes.com/2022/10/21/us/politics/trump-subpoena-jan-6.html",
+      "id": 100000008585468,
+      "asset_id": 100000008585468,
+      "source": "New York Times",
+      "published_date": "2022-10-21",
+      "updated": "2022-10-22 09:55:51",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Subpoenas;Storming of the US Capitol (Jan, 2021);Presidential Election of 2020;Rumors and Misinformation;Voter Fraud (Election Fraud);United States Politics and Government;Ethics and Official Misconduct;Trump, Donald J;House Select Committee to Investigate the January 6th Attack",
+      "column": null,
+      "byline": "By Luke Broadwater and Michael S. Schmidt",
+      "type": "Article",
+      "title": "Jan. 6 Panel Issues Subpoena to Trump, Setting Up Legal Battle Over Testimony",
+      "abstract": "While the former president has suggested he might testify live before the committee, it was far more likely that the demand would lead to a legal fight.",
+      "des_facet": [
+        "Subpoenas",
+        "Storming of the US Capitol (Jan, 2021)",
+        "Presidential Election of 2020",
+        "Rumors and Misinformation",
+        "Voter Fraud (Election Fraud)",
+        "United States Politics and Government",
+        "Ethics and Official Misconduct"
+      ],
+      "org_facet": [
+        "House Select Committee to Investigate the January 6th Attack"
+      ],
+      "per_facet": [
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Former President Donald J. Trump in Mesa, Ariz., last week. He released a lengthy, rambling letter that attacked the Jan. 6 committee’s work and reiterated false claims of widespread voting fraud but did not address whether he would comply with a subpoena.",
+          "copyright": "Rebecca Noble for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/17/us/politics/17dc-subpoena-1/17dc-subpoena-1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/17/us/politics/17dc-subpoena-1/17dc-subpoena-1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/17/us/politics/17dc-subpoena-1/17dc-subpoena-1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/631b9ddc-45b8-582c-924e-7b6bdeadcf98",
+      "url": "https://www.nytimes.com/2022/10/19/crosswords/spelling-bee-forum.html",
+      "id": 100000008582719,
+      "asset_id": 100000008582719,
+      "source": "New York Times",
+      "published_date": "2022-10-19",
+      "updated": "2022-10-19 03:00:03",
+      "section": "Gameplay",
+      "subsection": "",
+      "nytdsection": "gameplay",
+      "adx_keywords": "",
+      "column": null,
+      "byline": "By New York Times Games",
+      "type": "Article",
+      "title": "Spelling Bee Forum",
+      "abstract": "Feeling stuck on today’s puzzle? We can help.",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Courtesy of Nicholas Briggs ",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/19/crosswords/19bee-forum-wed/19bee-forum-wed-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/19/crosswords/19bee-forum-wed/19bee-forum-wed-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/19/crosswords/19bee-forum-wed/19bee-forum-wed-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/0f8bfa56-f970-5819-92b1-d0d0f1fbb4e9",
+      "url": "https://www.nytimes.com/2022/10/24/crosswords/spelling-bee-forum.html",
+      "id": 100000008593405,
+      "asset_id": 100000008593405,
+      "source": "New York Times",
+      "published_date": "2022-10-24",
+      "updated": "2022-10-24 03:00:07",
+      "section": "Gameplay",
+      "subsection": "",
+      "nytdsection": "gameplay",
+      "adx_keywords": "",
+      "column": null,
+      "byline": "By New York Times Games",
+      "type": "Article",
+      "title": "Spelling Bee Forum",
+      "abstract": "Feeling stuck on today’s puzzle? We can help.",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Courtesy of Jane Gamble",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/24/crosswords/24bee-photo/24bee-photo-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/24/crosswords/24bee-photo/24bee-photo-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/24/crosswords/24bee-photo/24bee-photo-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/97c7ee5b-1ce5-5f48-b5bf-032eb8430641",
+      "url": "https://www.nytimes.com/2022/10/22/crosswords/spelling-bee-forum.html",
+      "id": 100000008582769,
+      "asset_id": 100000008582769,
+      "source": "New York Times",
+      "published_date": "2022-10-22",
+      "updated": "2022-10-22 03:00:04",
+      "section": "Gameplay",
+      "subsection": "",
+      "nytdsection": "gameplay",
+      "adx_keywords": "",
+      "column": null,
+      "byline": "By New York Times Games",
+      "type": "Article",
+      "title": "Spelling Bee Forum",
+      "abstract": "Feeling stuck on today’s puzzle? We can help.",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Courtesy of Laurie Sabol ",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/22/crosswords/22bee-forum-sat/22bee-forum-sat-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/22/crosswords/22bee-forum-sat/22bee-forum-sat-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/22/crosswords/22bee-forum-sat/22bee-forum-sat-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/d8281e93-7a29-51b6-89fd-0be649231e1b",
+      "url": "https://www.nytimes.com/2022/10/23/crosswords/spelling-bee-forum.html",
+      "id": 100000008582777,
+      "asset_id": 100000008582777,
+      "source": "New York Times",
+      "published_date": "2022-10-23",
+      "updated": "2022-10-23 03:00:04",
+      "section": "Gameplay",
+      "subsection": "",
+      "nytdsection": "gameplay",
+      "adx_keywords": "",
+      "column": null,
+      "byline": "By New York Times Games",
+      "type": "Article",
+      "title": "Spelling Bee Forum",
+      "abstract": "Feeling stuck on today’s puzzle? We can help.",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Courtesy of Mia Horberg",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/23/crosswords/23bee-forum-sun/23bee-forum-sun-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/23/crosswords/23bee-forum-sun/23bee-forum-sun-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/23/crosswords/23bee-forum-sun/23bee-forum-sun-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/4cd22501-1ffd-5a17-9754-11d82e92d8ad",
+      "url": "https://www.nytimes.com/2022/10/21/us/politics/steve-bannon-sentence-contempt-congress.html",
+      "id": 100000008591968,
+      "asset_id": 100000008591968,
+      "source": "New York Times",
+      "published_date": "2022-10-21",
+      "updated": "2022-10-22 12:58:32",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Subpoenas;Suits and Litigation (Civil);Storming of the US Capitol (Jan, 2021);Presidential Election of 2020;United States Politics and Government;Bannon, Stephen K;Trump, Donald J;House Select Committee to Investigate the January 6th Attack",
+      "column": null,
+      "byline": "By Glenn Thrush and Alan Feuer",
+      "type": "Article",
+      "title": "Bannon Sentenced to 4 Months in Prison for Contempt of Congress",
+      "abstract": "Stephen Bannon was found guilty of two counts of contempt of Congress this summer for defying a subpoena from the House Jan. 6 committee.",
+      "des_facet": [
+        "Subpoenas",
+        "Suits and Litigation (Civil)",
+        "Storming of the US Capitol (Jan, 2021)",
+        "Presidential Election of 2020",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "House Select Committee to Investigate the January 6th Attack"
+      ],
+      "per_facet": [
+        "Bannon, Stephen K",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/5d92cf07-02a7-520f-ab75-b6bb756b5367",
+      "url": "https://www.nytimes.com/2022/10/19/science/first-neanderthal-family-russian-cave.html",
+      "id": 100000008586322,
+      "asset_id": 100000008586322,
+      "source": "New York Times",
+      "published_date": "2022-10-19",
+      "updated": "2022-10-21 10:27:46",
+      "section": "Science",
+      "subsection": "",
+      "nytdsection": "science",
+      "adx_keywords": "Archaeology and Anthropology;Neanderthal Man;Genetics and Heredity;Research;Bones;Paleontology;Endangered and Extinct Species;Fossils;your-feed-science;Nature (Journal)",
+      "column": null,
+      "byline": "By Carl Zimmer",
+      "type": "Article",
+      "title": "First Known Family of Neanderthals Found in Russian Cave",
+      "abstract": "Fossilized bone fragments of a father, teenage daughter and other related Neanderthals were found alongside stone tools and butchered bison bones.",
+      "des_facet": [
+        "Archaeology and Anthropology",
+        "Neanderthal Man",
+        "Genetics and Heredity",
+        "Research",
+        "Bones",
+        "Paleontology",
+        "Endangered and Extinct Species",
+        "Fossils",
+        "your-feed-science"
+      ],
+      "org_facet": [
+        "Nature (Journal)"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An artist’s rendering of a Neanderthal father and daughter. DNA from fossils in a Russian cave have revealed the first known Neanderthal family.",
+          "copyright": "Tom Björklund",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/10/19/science/19neanderthal-01/19neanderthal-01-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/19/science/19neanderthal-01/19neanderthal-01-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/10/19/science/19neanderthal-01/19neanderthal-01-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }
+  ]
+}
