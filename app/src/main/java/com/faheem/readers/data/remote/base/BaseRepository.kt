@@ -23,24 +23,22 @@ abstract class BaseRepository {
             401 -> getMessage(NetworkErrors.Unauthorized)
             403 -> getMessage(NetworkErrors.Forbidden)
             404 -> getMessage(NetworkErrors.NotFound)
-            429 -> getMessage(NetworkErrors.InternalServerError)
+            408 -> getMessage(NetworkErrors.RequestTimedOut)
+            429 -> getMessage(NetworkErrors.TooManyRequests)
             502 -> getMessage(NetworkErrors.BadGateway)
-            504 -> getMessage(NetworkErrors.NoInternet)
-            -1001 -> getMessage(NetworkErrors.RequestTimedOut)
-            -1009 -> getMessage(NetworkErrors.NoInternet)
             else -> getMessage(NetworkErrors.UnknownError())
         }
     }
 
     private fun getMessage(error: NetworkErrors): String {
         return when (error) {
-            NetworkErrors.Unauthorized -> "Unauthorized request. Make sure api-key is set."
+            NetworkErrors.Unauthorized -> "The requested resource requires user authentication"
             is NetworkErrors.NoInternet, NetworkErrors.RequestTimedOut -> "Please check your internet connection"
             is NetworkErrors.BadGateway -> "Bad Gateway"
-            is NetworkErrors.NotFound -> "Not Found"
-            is NetworkErrors.Forbidden -> "You don't have access to this information."
-            is NetworkErrors.InternalServerError -> "Too many requests. You reached your per minute or per day rate limit."
-            is NetworkErrors.UnknownError -> "This request unfortunately failed please try again."
+            is NetworkErrors.NotFound -> "The server has not found anything matching the Request-URI"
+            is NetworkErrors.Forbidden -> "You don't have access to this information"
+            is NetworkErrors.TooManyRequests -> "You reached your per minute or per day rate limit"
+            is NetworkErrors.UnknownError -> "This request unfortunately failed please try again"
         }
     }
 
@@ -51,7 +49,7 @@ abstract class BaseRepository {
         object BadGateway : NetworkErrors()
         object NotFound : NetworkErrors()
         object Forbidden : NetworkErrors()
-        object InternalServerError : NetworkErrors()
+        object TooManyRequests : NetworkErrors()
         open class UnknownError : NetworkErrors()
     }
 }
