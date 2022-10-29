@@ -4,12 +4,16 @@ import com.faheem.readers.data.dtos.ArticlesDto
 import com.faheem.readers.data.remote.ArticlesRepository
 import com.faheem.readers.data.remote.base.NetworkResult
 import com.faheem.readers.domain.DataState
+import com.faheem.readers.domain.models.Article
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.every
 import io.mockk.mockk
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.flow.count
+import kotlinx.coroutines.flow.drop
 import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.last
 import kotlinx.coroutines.test.runTest
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
@@ -18,10 +22,8 @@ import org.junit.jupiter.api.Test
 internal class GetArticlesUseCaseTest {
 
     @Test
-    fun `test fetch articles should return domain model`() = runTest {
-
+    fun `test fetch articles should return success`() = runTest {
         // Given
-
         val mockRepository = mockk<ArticlesRepository>()
         val mockData = mockk<ArticlesDto> {
             every { results } returns listOf(
@@ -32,29 +34,35 @@ internal class GetArticlesUseCaseTest {
                 )
             )
         }
-
         coEvery { mockRepository.getMostViewedArticles(7) } returns NetworkResult.Success(mockData)
 
         // When
-
         val sut = GetArticlesUseCase(mockRepository)
-        val actual = sut.fetchArticles(7).first() as DataState.Success
+        val actual = sut.fetchArticles(7)
+        val expected = DataState.Success(
+            listOf(
+                Article(
+                    title = "title1",
+                    by = "by author",
+                    publishDate = "2022-10-17"
+                )
+            )
+        )
 
         // Then
-
-        Assertions.assertEquals("title1", actual.data.first().title)
-        Assertions.assertEquals("by author", actual.data.first().by)
-        Assertions.assertEquals("2022-10-17", actual.data.first().publishDate)
+        Assertions.assertEquals(3, actual.count())
+        Assertions.assertEquals(DataState.Loading(true), actual.first())
+        Assertions.assertEquals(DataState.Loading(false), actual.last())
+        Assertions.assertEquals(expected, actual.drop(1).first())
 
         // Verify
         coVerify { mockRepository.getMostViewedArticles(7) }
     }
 
     @Test
-    fun `test fetch articles is failed should return error message`() = runTest {
+    fun `test fetch articles is failed should return error`() = runTest {
 
         // Given
-
         val mockRepository = mockk<ArticlesRepository>()
         val mockData = mockk<Exception> {
             every { message } returns "Something went wrong"
@@ -63,12 +71,15 @@ internal class GetArticlesUseCaseTest {
         coEvery { mockRepository.getMostViewedArticles(7) } returns NetworkResult.Error(mockData)
 
         // When
-
         val sut = GetArticlesUseCase(mockRepository)
-        val actual = sut.fetchArticles(7).first() as DataState.Error
+        val actual = sut.fetchArticles(7)
+        val expected = DataState.Error("Something went wrong")
 
         // Then
-        Assertions.assertEquals("Something went wrong", actual.error)
+        Assertions.assertEquals(3, actual.count())
+        Assertions.assertEquals(DataState.Loading(true), actual.first())
+        Assertions.assertEquals(DataState.Loading(false), actual.last())
+        Assertions.assertEquals(expected, actual.drop(1).first())
 
         // Verify
         coVerify { mockRepository.getMostViewedArticles(7) }

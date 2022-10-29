@@ -35,6 +35,7 @@ android {
         unitTests.all {
             useJUnitPlatform()
         }
+        unitTests.returnDefaultValues = true
     }
 }
 
@@ -51,11 +52,14 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.okhttp3:logging-interceptor:4.9.1'
 
+    // Lifecycles
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
+
     // Unit testing
     testImplementation 'junit:junit:4.13.2'
     testImplementation 'io.mockk:mockk:1.12.4'
-    testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.2'
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.0'
+    testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
 
 
     // UI testing
