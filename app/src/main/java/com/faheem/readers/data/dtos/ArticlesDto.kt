@@ -1,6 +1,7 @@
 package com.faheem.readers.data.dtos
 
 
+import com.faheem.readers.domain.models.Article
 import com.google.gson.annotations.SerializedName
 
 data class ArticlesDto(
@@ -80,3 +81,9 @@ data class Result(
     @SerializedName("url")
     val url: String? = null
 )
+
+fun ArticlesDto.asDomain(): List<Article> {
+    return this.results.map {
+        Article(it.title ?: "", it.byline ?: "Anonymous", it.publishedDate ?: "")
+    }
+}
