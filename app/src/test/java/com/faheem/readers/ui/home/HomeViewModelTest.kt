@@ -25,7 +25,7 @@ import org.junit.jupiter.api.extension.ExtendWith
 @DelicateCoroutinesApi
 @OptIn(ExperimentalCoroutinesApi::class)
 @ExtendWith(InstantExecutorExtension::class)
-internal class ArticlesViewModelTest {
+internal class HomeViewModelTest {
 
 
     private val mainThreadSurrogate = newSingleThreadContext("UI thread")
@@ -52,7 +52,7 @@ internal class ArticlesViewModelTest {
         }
 
         // When
-        val sut = ArticlesViewModel(mockUseCase)
+        val sut = HomeViewModel(mockUseCase)
         sut.getArticles(7)
         val actual = sut.uiState.getOrAwaitValue()
         val expected = HomeUiState.Success(listOf(Article("Title 1", "By Author", "20-10-2022")))
@@ -72,7 +72,7 @@ internal class ArticlesViewModelTest {
         }
 
         // When
-        val sut = ArticlesViewModel(mockUseCase)
+        val sut = HomeViewModel(mockUseCase)
         sut.getArticles(7)
         val actual = sut.uiState.getOrAwaitValue()
         val expected = HomeUiState.Error("Something went wrong")
@@ -92,7 +92,7 @@ internal class ArticlesViewModelTest {
         }
 
         // When
-        val sut = ArticlesViewModel(mockUseCase)
+        val sut = HomeViewModel(mockUseCase)
         sut.getArticles(7)
         val actual = sut.uiState.getOrAwaitValue()
         val expected = HomeUiState.Loading(true)
@@ -115,7 +115,7 @@ internal class ArticlesViewModelTest {
         }
 
         // When
-        val sut = ArticlesViewModel(mockUseCase)
+        val sut = HomeViewModel(mockUseCase)
         sut.getArticles(7)
         val actual = sut.uiState.getOrAwaitValue()
         val expected = HomeUiState.Loading(false)

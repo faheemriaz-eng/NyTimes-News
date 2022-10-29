@@ -7,13 +7,22 @@ import androidx.lifecycle.viewModelScope
 import com.faheem.readers.domain.DataState
 import com.faheem.readers.domain.models.Article
 import com.faheem.readers.domain.usecases.GetArticlesUseCase
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
-class ArticlesViewModel(private val useCase: GetArticlesUseCase) : ViewModel() {
+private const val TIME_PERIOD = 7
+
+@HiltViewModel
+class HomeViewModel @Inject constructor(private val useCase: GetArticlesUseCase) : ViewModel() {
     private val _uiState: MutableLiveData<HomeUiState> = MutableLiveData()
     val uiState: LiveData<HomeUiState> = _uiState
 
-    fun getArticles(timePeriod: Int) {
+    init {
+        getArticles(TIME_PERIOD)
+    }
+
+     fun getArticles(timePeriod: Int) {
         viewModelScope.launch {
             useCase.fetchArticles(timePeriod).collect {
                 when (it) {
