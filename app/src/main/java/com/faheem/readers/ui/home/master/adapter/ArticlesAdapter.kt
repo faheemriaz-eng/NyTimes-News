@@ -1,4 +1,4 @@
-package com.faheem.readers.ui.home.adapter
+package com.faheem.readers.ui.home.master.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater

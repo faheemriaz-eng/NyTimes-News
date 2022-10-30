@@ -5,6 +5,8 @@ import com.faheem.readers.domain.models.Article
 import com.faheem.readers.domain.usecases.GetArticlesUseCase
 import com.faheem.readers.testutils.InstantExecutorExtension
 import com.faheem.readers.testutils.getOrAwaitValue
+import com.faheem.readers.ui.home.master.HomeUiState
+import com.faheem.readers.ui.home.master.HomeViewModel
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify

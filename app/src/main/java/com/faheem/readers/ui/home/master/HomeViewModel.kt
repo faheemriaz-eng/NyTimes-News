@@ -1,4 +1,4 @@
-package com.faheem.readers.ui.home
+package com.faheem.readers.ui.home.master
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
