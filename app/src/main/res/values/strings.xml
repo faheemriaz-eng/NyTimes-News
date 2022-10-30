@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Readers</string>
+    <string name="app_name">NyTimes Most Popular</string>
     <string name="created_by">Created By : </string>
     <string name="source">Source : </string>
 </resources>
