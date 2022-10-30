@@ -59,7 +59,7 @@ class HomeMasterFragment : BaseFragment() {
         mViewBinding.recyclerView.adapter = adapter
     }
 
-    private fun bindViewState(viewState: HomeUiState) {
+    fun bindViewState(viewState: HomeUiState) {
         when (viewState) {
             is HomeUiState.Loading -> {
                 mViewBinding.progressBar.isVisible = viewState.isLoading
