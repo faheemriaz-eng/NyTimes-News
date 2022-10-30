@@ -1,4 +1,4 @@
-# ReadersAPP
+# NyTimes News APP
 
 
 
