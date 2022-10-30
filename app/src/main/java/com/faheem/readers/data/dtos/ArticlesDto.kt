@@ -86,9 +86,12 @@ fun ArticlesDto.asDomain(): List<Article> {
     return this.results.map {
         Article(
             title = it.title ?: "",
+            description = it.abstract ?: "",
             by = it.byline ?: "Anonymous",
+            source = it.source ?: "",
             publishDate = it.publishedDate ?: "",
-            imageUrl = it.media?.getOrNull(0)?.mediaMetadata?.getOrNull(2)?.url ?: ""
+            imageUrl = it.media?.getOrNull(0)?.mediaMetadata?.getOrNull(1)?.url ?: "",
+            largeImageUrl = it.media?.getOrNull(0)?.mediaMetadata?.getOrNull(2)?.url ?: ""
         )
     }
 }

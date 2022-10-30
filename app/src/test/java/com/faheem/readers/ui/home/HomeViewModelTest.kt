@@ -5,8 +5,8 @@ import com.faheem.readers.domain.models.Article
 import com.faheem.readers.domain.usecases.GetArticlesUseCase
 import com.faheem.readers.testutils.InstantExecutorExtension
 import com.faheem.readers.testutils.getOrAwaitValue
-import com.faheem.readers.ui.home.master.HomeUiState
-import com.faheem.readers.ui.home.master.HomeViewModel
+import com.faheem.readers.ui.features.home.master.HomeUiState
+import com.faheem.readers.ui.features.home.master.HomeViewModel
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify
@@ -57,7 +57,15 @@ internal class HomeViewModelTest {
         val sut = HomeViewModel(mockUseCase)
         sut.getArticles(7)
         val actual = sut.uiState.getOrAwaitValue()
-        val expected = HomeUiState.Success(listOf(Article("Title 1", "By Author", "20-10-2022")))
+        val expected = HomeUiState.Success(
+            listOf(
+                Article(
+                    title = "Title 1",
+                    by = "By Author",
+                    publishDate = "20-10-2022"
+                )
+            )
+        )
 
         // Then
         Assertions.assertEquals(expected, actual)

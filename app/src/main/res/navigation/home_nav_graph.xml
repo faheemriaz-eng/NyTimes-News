@@ -7,7 +7,16 @@
 
     <fragment
         android:id="@+id/homeMasterFragment"
-        android:name="com.faheem.readers.ui.home.master.HomeMasterFragment"
-        android:label="HomeMasterFragment"
-        tools:layout="@layout/fragment_master_home" />
+        android:name="com.faheem.readers.ui.features.home.master.HomeMasterFragment"
+        android:label="fragment_home_master"
+        tools:layout="@layout/fragment_master_home" >
+        <action
+            android:id="@+id/action_homeMasterFragment_to_articleDetailsFragment"
+            app:destination="@id/articleDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/articleDetailsFragment"
+        android:name="com.faheem.readers.ui.features.home.detail.ArticleDetailsFragment"
+        android:label="fragment_article_details"
+        tools:layout="@layout/fragment_article_details" />
 </navigation>

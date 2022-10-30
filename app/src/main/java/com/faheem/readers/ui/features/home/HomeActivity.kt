@@ -1,4 +1,4 @@
-package com.faheem.readers.ui.home
+package com.faheem.readers.ui.features.home
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

@@ -1,4 +1,4 @@
-package com.faheem.readers.ui.home.master.adapter
+package com.faheem.readers.ui.features.home.master.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -6,9 +6,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.faheem.readers.databinding.LayoutItemArticleHeadlineBinding
 import com.faheem.readers.domain.models.Article
-import javax.inject.Inject
+import com.faheem.readers.ui.core.OnItemClickListener
 
-class ArticlesAdapter @Inject constructor() :
+class ArticlesAdapter(private val onItemClickListener: OnItemClickListener) :
     RecyclerView.Adapter<ArticlesViewHolder>() {
 
     private var list: MutableList<Article> = mutableListOf()
@@ -27,7 +27,7 @@ class ArticlesAdapter @Inject constructor() :
     }
 
     override fun onBindViewHolder(holder: ArticlesViewHolder, position: Int) {
-        holder.bind(list[position])
+        holder.bind(list[position], onItemClickListener)
     }
 
     override fun getItemCount(): Int {

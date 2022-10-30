@@ -44,7 +44,8 @@ internal class GetArticlesUseCaseTest {
                 Article(
                     title = "title1",
                     by = "by author",
-                    publishDate = "2022-10-17"
+                    publishDate = "2022-10-17",
+                    description = "", source = "", imageUrl = "", largeImageUrl = ""
                 )
             )
         )
