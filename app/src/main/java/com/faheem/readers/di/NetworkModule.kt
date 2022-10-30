@@ -1,5 +1,6 @@
 package com.faheem.readers.di
 
+import com.faheem.readers.BuildConfig
 import com.faheem.readers.data.client.ApiClient
 import com.faheem.readers.data.remote.ArticlesService
 import dagger.Module
@@ -20,7 +21,7 @@ class NetworkModule {
     @Provides
     @Singleton
     fun provideRetrofit(apiClient: ApiClient): Retrofit {
-        return apiClient.build("https://api.nytimes.com/svc/mostpopular/v2/")
+        return apiClient.build(BuildConfig.SERVER_URL)
     }
 
     @Singleton
