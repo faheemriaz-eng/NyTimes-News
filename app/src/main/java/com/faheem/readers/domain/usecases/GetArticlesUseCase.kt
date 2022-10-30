@@ -24,7 +24,7 @@ class GetArticlesUseCase @Inject constructor(private val repository: ArticlesRep
         .onCompletion { emit(DataState.Loading(false)) }
         .catch { ex ->
             emit(DataState.Loading(false))
-            DataState.Error(ex.message ?: "Something went wrong")
+            emit(DataState.Error(ex.message ?: "Something went wrong"))
         }
 
 }

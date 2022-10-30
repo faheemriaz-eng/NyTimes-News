@@ -8,6 +8,7 @@ import com.faheem.readers.domain.DataState
 import com.faheem.readers.domain.models.Article
 import com.faheem.readers.domain.usecases.GetArticlesUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -24,7 +25,7 @@ class HomeViewModel @Inject constructor(private val useCase: GetArticlesUseCase)
 
      fun getArticles(timePeriod: Int) {
         viewModelScope.launch {
-            useCase.fetchArticles(timePeriod).collect {
+            useCase.fetchArticles(timePeriod).collectLatest {
                 when (it) {
                     is DataState.Loading -> {
                         _uiState.value = HomeUiState.Loading(it.isLoading)

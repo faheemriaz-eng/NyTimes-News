@@ -5,7 +5,9 @@ import androidx.activity.viewModels
 import androidx.core.view.isVisible
 import com.faheem.readers.databinding.ActivityHomeBinding
 import com.faheem.readers.ui.base.BaseActivity
+import com.faheem.readers.ui.home.adapter.ArticlesAdapter
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class HomeActivity : BaseActivity() {
@@ -13,23 +15,35 @@ class HomeActivity : BaseActivity() {
 
     private val viewModel: HomeViewModel by viewModels()
 
+    @Inject
+    lateinit var adapter: ArticlesAdapter
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         mViewBinding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(mViewBinding.root)
         addObservers()
+        initViews()
+    }
+
+    private fun initViews() {
+        initRecyclerView()
+    }
+
+    private fun initRecyclerView() {
+        mViewBinding.recyclerView.adapter = adapter
     }
 
     private fun bindViewState(viewState: HomeUiState) {
         when (viewState) {
-            is HomeUiState.Error -> {
-                showToast(viewState.message)
-            }
             is HomeUiState.Loading -> {
                 mViewBinding.progressBar.isVisible = viewState.isLoading
             }
             is HomeUiState.Success -> {
-                showToast(viewState.articles.toString())
+                adapter.setList(viewState.articles)
+            }
+            is HomeUiState.Error -> {
+                showToast(viewState.message)
             }
         }
     }

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:paddingStart="25dp"
+    android:paddingTop="25dp"
+    android:paddingEnd="0dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="@+id/tvCreatedBy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvTitle"
+        app:shapeAppearance="@style/shapeAppearance.App.CircleImageView.MediumComponent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvTitle"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="24dp"
+        android:ellipsize="end"
+        android:lines="2"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@id/ivDetail"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="First Known Family of Neanderthals Found insas assa asa sasa assa  Russian Cave eeeesa" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvCreatedBy"
+        style="@style/TextAppearance.AppCompat.Small"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:lines="1"
+        app:layout_constraintEnd_toStartOf="@id/ivDetail"
+        app:layout_constraintStart_toStartOf="@id/tvTitle"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        tools:text="By Jenna Fisher, Remy Tumin, Johnny Diaz and Julie Bosman" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/lyDateContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toStartOf="@id/ivDetail"
+        app:layout_constraintTop_toBottomOf="@id/tvCreatedBy">
+
+        <ImageView
+            android:id="@+id/ivCalender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_calender"
+            app:tint="@color/teal_700" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvPublishDate"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            tools:text="2022-10-19" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <ImageView
+        android:id="@+id/ivDetail"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_right"
+        app:layout_constraintBottom_toBottomOf="@+id/tvCreatedBy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvTitle"
+        app:tint="@color/teal_700" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

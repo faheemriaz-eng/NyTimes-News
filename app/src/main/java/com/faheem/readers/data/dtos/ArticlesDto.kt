@@ -84,6 +84,11 @@ data class Result(
 
 fun ArticlesDto.asDomain(): List<Article> {
     return this.results.map {
-        Article(it.title ?: "", it.byline ?: "Anonymous", it.publishedDate ?: "")
+        Article(
+            title = it.title ?: "",
+            by = it.byline ?: "Anonymous",
+            publishDate = it.publishedDate ?: "",
+            imageUrl = it.media?.getOrNull(0)?.mediaMetadata?.getOrNull(2)?.url ?: ""
+        )
     }
 }
