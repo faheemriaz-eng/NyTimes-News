@@ -5,6 +5,11 @@ plugins {
     id 'dagger.hilt.android.plugin'
     id 'kotlin-parcelize'
 }
+apply from: "../codecoverage.gradle"
+
+jacoco {
+    toolVersion = "0.8.8"
+}
 
 android {
     namespace 'com.faheem.readers'
