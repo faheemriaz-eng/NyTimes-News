@@ -15,6 +15,12 @@
 
 This app uses [MVVM (Model View View-Model)] architecture.
 
+### How to install the project and run app
+
+- Simply clone or download the project from github link.
+- Open project in Android Studio, wait for building and syncing sdk, install if anything missing and prompted.
+- After successful building the project, click on the play button on top and wait for the application to install on simulator or device.
+
 ### How to run all tests from terminal
 
 - To run the tests open terminal
